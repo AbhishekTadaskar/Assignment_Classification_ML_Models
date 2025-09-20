@@ -67,10 +67,7 @@ Each model is trained on the preprocessed training data (`X_train`, `y_train`) a
 - F1-score
 
 ---
+---
 
-## Usage
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
 
