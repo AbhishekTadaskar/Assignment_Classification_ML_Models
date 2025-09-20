@@ -16,11 +16,12 @@ flowchart LR
     C --> D[**Model Comparison & Selection**]
     D --> E[**Best Model**]
 
-    style A fill:#FFD966,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
-    style B fill:#6FA8DC,stroke:#333,stroke-width:2px
-    style C fill:#93C47D,stroke:#333,stroke-width:2px
-    style D fill:#F4B183,stroke:#333,stroke-width:2px
-    style E fill:#C27BA0,stroke:#333,stroke-width:2px
+    style A fill:#FFD966,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#6FA8DC,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#93C47D,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#F4B183,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#C27BA0,stroke:#333,stroke-width:2px,color:#000
+
 
 ```
 
