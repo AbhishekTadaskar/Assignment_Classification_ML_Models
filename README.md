@@ -103,7 +103,36 @@ flowchart LR
     style E fill:#C27BA0,stroke:#333,stroke-width:2px,color:#000
     style F fill:#9E9E9E,stroke:#333,stroke-width:2px,color:#000
     style G fill:#76A5AF,stroke:#333,stroke-width:2px,color:#000
+```
+---
 
+## Pipeline Steps
+
+### 2. Data Preprocessing
+- Convert `TotalCharges` from string to numeric and handle missing values with imputation.
+- Encode categorical variables using One-Hot Encoding and Label Encoding.
+
+### 3. Feature & Target Split
+- **Features (X):** Independent variables for prediction
+- **Target (y):** `Churn` column to be predicted
+
+### 4. Data Splitting
+Partition data into training and testing sets (typically 80% training, 20% testing).
+
+### 5. Model Training & Evaluation
+**Trained Models:**
+- Decision Tree Classifier: Tree-based decision model
+- Random Forest Classifier: Ensemble of decision trees for robust predictions
+- AdaBoost Classifier: Combines weak learners to form a strong learner
+- XGBoost Classifier: Efficient gradient boosting framework
+- CatBoost Classifier: Handles categorical features automatically
+
+**Evaluation Metrics:** Accuracy, F1-Score
+
+### 6. Model Comparison
+Compare models based on performance metrics to identify the best-performing model.
+
+---
 
 
 
