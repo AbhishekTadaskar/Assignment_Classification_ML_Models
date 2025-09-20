@@ -68,6 +68,43 @@ Each model is trained on the preprocessed training data (`X_train`, `y_train`) a
 
 ---
 
+# 2. Telco Customer Churn Prediction
+
+## Project Overview
+This project focuses on building and evaluating machine learning models to predict customer churn for a fictional telecommunications company. The goal is to identify customers likely to leave based on their demographic and service data.
+
+---
+
+## Dataset Overview
+The dataset (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) contains information on 7,043 customers, including:
+
+**Demographics:** gender, senior citizen status, partner, dependents  
+**Services:** phone service, multiple lines, internet service, online security, online backup, device protection, tech support, streaming TV, streaming movies  
+**Account Information:** tenure, contract type, paperless billing, payment method, monthly charges, total charges  
+**Target Variable:** `Churn` (indicates whether the customer left the company)
+
+---
+
+## Architectural Flow
+
+```mermaid
+flowchart LR
+    A[**Data Ingestion**] --> B[**Data Preprocessing**]
+    B --> C[**Feature & Target Split**]
+    C --> D[**Data Splitting**]
+    D --> E[**Model Training & Evaluation**]
+    E --> F[**Model Comparison**]
+    F --> G[**Best Model Selection**]
+
+    style A fill:#FFD966,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#6FA8DC,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#93C47D,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#F4B183,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#C27BA0,stroke:#333,stroke-width:2px,color:#000
+    style F fill:#9E9E9E,stroke:#333,stroke-width:2px,color:#000
+    style G fill:#76A5AF,stroke:#333,stroke-width:2px,color:#000
+
+
 
 
 
