@@ -2,7 +2,7 @@
 ---
 # 1. HR Employee Attrition Prediction
 
-## Project Overview
+## 🔹 Project Overview
 This project predicts employee attrition using a machine learning pipeline. It follows a systematic workflow to prepare data, train models, evaluate performance, and select the best-performing model.
 
 **Workflow:**
@@ -27,7 +27,7 @@ flowchart LR
 
 ---
 
-## Data Preprocessing
+## 📁 Data Preprocessing
 
 The following steps are performed to prepare the data:
 
@@ -68,14 +68,14 @@ Each model is trained on the preprocessed training data (`X_train`, `y_train`) a
 
 ---
 
-# 2. Telco Customer Churn Prediction
+# 2. 📊 Telco Customer Churn Prediction
 
 ## Project Overview
 This project focuses on building and evaluating machine learning models to predict customer churn for a fictional telecommunications company. The goal is to identify customers likely to leave based on their demographic and service data.
 
 ---
 
-## Dataset Overview
+## 📁 Dataset Overview
 The dataset (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) contains information on 7,043 customers, including:
 
 **Demographics:** gender, senior citizen status, partner, dependents  
@@ -106,7 +106,7 @@ flowchart LR
 ```
 ---
 
-## Pipeline Steps
+## ⚙️ Pipeline Steps
 
 ### 2. Data Preprocessing
 - Convert `TotalCharges` from string to numeric and handle missing values with imputation.
